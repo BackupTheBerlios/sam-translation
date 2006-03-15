@@ -1,0 +1,64 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[latin1]{inputenc}
+\usepackage{colortbl}
+
+\topmargin 0in
+\textwidth 17.5cm
+\oddsidemargin -0.5cm
+\evensidemargin -0.5cm
+
+\author{IEHL\\
+        Romain
+        \and
+        MALISOVA\\
+        Pierre-Yves
+}
+
+\title{Etude du langage SAM\\
+       \small TER de master}
+
+\date{2006}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+Ce projet de TER a pour but d'étudier le langage SAM et de proposer des outils permettant sa traduction vers le langage SMV.
+
+\section{Plan}
+
+Nous allons traiter le sujet selon le plan suivant:
+\\\\
+\begin{footnotesize}
+\begin{tabular}{|r|c|c|c|c|c|c|c|c|c|c|c|c|}
+\cline{2-13}
+\multicolumn{1}{c|}{} & \multicolumn{4}{c|}{mars} & \multicolumn{4}{c|}{avril} & \multicolumn{4}{c|}{mai}\\
+\cline{2-13}
+\multicolumn{1}{c|}{} & 06/03 & 13/03 & 20/03 & 27/03 & 03/04 & 10/04 & 17/04 & 24/04 & 01/05 & 08/05 & 15/05 & 22/05 \\
+\multicolumn{1}{c|}{} & 12/03 & 19/03 & 26/03 & 02/04 & 09/04 & 16/04 & 23/04 & 30/04 & 07/05 & 14/05 & 21/05 & 28/05 \\
+\hline
+étude & \multicolumn{2}{>{\columncolor{black}}c|}{} & & & & & & & & & &\\
+\hline
+modélisation & & & \multicolumn{2}{>{\columncolor{black}}c|}{} & & & & & & & &\\
+\hline
+spécialisation & & & & & \multicolumn{3}{>{\columncolor{black}}c|}{} & & & & &\\
+\hline
+traduction & & & & & & & & \multicolumn{5}{>{\columncolor{black}}c|}{}\\
+automatisée & & & & & & & & \multicolumn{5}{>{\columncolor{black}}c|}{}\\
+\hline
+\end{tabular}
+\end{footnotesize}
+
+\subsection{Phase d'étude \\ \small 2 semaines}
+\small Dans cette phase, nous aborderons les différents langages à traiter pour le sujet, à savoir \textbf{SAM} et \textbf{SMV}
+\subsection{Phase de modélisation \\ \small 2 semaines}
+\small Dans cette phase, nous modéliserons des exemples simples de \textbf{SAM} et \textbf{SMV}, nous commencerons à étudier les moyens de passer de l'un à l'autre.
+\subsection{Phase de spécialisation \\ \small 3 semaines}
+\small Dans cette phase, nous allons étudier le méta-modèle \textbf{SMV} et transformer concrètement des exemples \textbf{SAM} en \textbf{SMV} manuellement.
+\subsection{Phase de traduction automatisée \\ \small jusqu'en juin}
+\small Dans cette dernière phase, nous allons nous pencher plus précisément sur un moyen d'automatiser le processus de traduction d'un automate \textbf{SAM} vers le langage \textbf{SMV}. Possibilités d'utilisation: \textsc{OCAML} ou \textsc{ATL}
+
+
+\end{document}
